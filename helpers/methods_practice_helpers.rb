@@ -14,7 +14,7 @@ module MethodsPracticeHelpers
     # the "message" variable and should have a class appropriate for the "type"
     # that is passed in, defaulting to 'info' if no type is passed in.
 
-
+    
   end
 
   def current_date_and_time
@@ -22,7 +22,7 @@ module MethodsPracticeHelpers
     # Time.now.strftime is a great method chain you can use for this purpose.
     # See how to use it at: http://apidock.com/ruby/Time/strftime
 
-
+    Time.now.strftime('%B %d, %Y at %I:%M%p')
   end
 
   # ------------------------------------------
